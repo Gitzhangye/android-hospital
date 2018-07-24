@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="fill_parent"  
+  android:layout_height="fill_parent"> 
+   <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+     android:descendantFocusability="blocksDescendants">
+	   <TextView
+	     android:id="@+id/tv_leaveWordId"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	   <TextView
+	     android:id="@+id/tv_title"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	   <TextView
+	     android:id="@+id/tv_addTime"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	   <TextView
+	     android:id="@+id/tv_userObj"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	   <TextView
+	     android:id="@+id/tv_replyTime"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+  </LinearLayout>
+</LinearLayout>

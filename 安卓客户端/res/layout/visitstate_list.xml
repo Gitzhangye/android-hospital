@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_bg" 
+>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+         <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/h_list_view"
+            android:divider="#00000000"
+            android:dividerHeight="18dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" /> 
+    </TableLayout>  
+</RelativeLayout>
